@@ -2,9 +2,9 @@
     "name": "mbed-client",
     "config": {
         "event-loop-size": 1024,
-        "reconnection-count": 3,
+        "reconnection-count": 10,
         "reconnection-interval": 5,
-        "tcp-keepalive-interval": 90,
+        "tcp-keepalive-interval": 40,
         "disable-bootstrap-feature": null,
         "coap-disable-obs-feature":null,
         "reconnection-loop": {
